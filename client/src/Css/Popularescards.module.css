@@ -1,0 +1,133 @@
+.populares{
+    padding: 3rem 0;
+   
+    
+}
+ .populares__contenido{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0.5rem 6rem;
+    
+} 
+
+.populares__select {
+    padding: 8px;
+    margin: 6px;
+    width: 200px;
+    height: 50px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 7px;
+    border: 3px solid rgb(1, 136, 68);
+    background: linear-gradient(180deg ,#6edcc4,#1aab8b); 
+  }
+
+.populares__hover:hover{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 1rem 10rem;
+}
+.populares__card{
+    background: linear-gradient(180deg,#21c8f6,#637bff);
+    border-radius: 18px;
+    box-shadow: 4px 4px 3px 5px rgba(26, 19, 19, 0.418);
+    display:grid;
+    grid-template-areas: 
+    "card-imagen"
+    "card-base";
+    grid-template-columns: 100%;
+    grid-template-rows: 150px auto;
+    margin-right: .1rem;
+    margin-left: .9rem;
+    width:calc(20%);
+
+}
+.populares__card:hover {
+    transform: translateY(-3%);
+  }
+.populares__imagen{
+    grid-area: card-imagen;
+    align-self: center;
+    margin-bottom:50px;
+    margin-left: 50px;
+    box-shadow: 2px 2px 1px 2px hsla(229, 90%, 12%, 0.801);
+    border-radius: 150px;
+    height: 100%;
+    width: 60%;
+    
+}
+
+.populares__card___base:hover{
+    display: grid;
+    grid-area: card-base; 
+    grid-row-gap: .1rem;  
+    margin-top: 0rem;
+    grid-template-areas: 
+        "card-header"
+        "card-description";
+    grid-template-rows: 50px auto;
+    padding: .75rem;
+    
+    background: linear-gradient(180deg ,#6edcc4,#1aab8b); 
+      
+
+}
+.populares__card___description{
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* line-height: 1.5; */
+    padding: 0rem 0rem;
+    margin: .2rem 0;
+    grid-area: card-description;
+    text-align: justify;
+   
+    
+}
+.populares__items{
+
+}
+.populares__info{
+
+}
+.populares__header{
+
+}
+.populares__titulo{
+
+}
+.populares__botonclose{
+    border:#1aab8b;
+    border-radius:.5em;
+    margin: .5em;
+    width: 22px;
+    height:23px;
+    letter-spacing: 1rem;
+   
+    float: right;
+    
+
+}
+.populares__boton {
+    background: transparent;
+    border: none;
+    color: #333333;
+}
+
+
+
+
+
+.populares__card___header{
+    border-bottom: 1px solid #1f0786;
+    display: flex;
+   
+}
+.populares__card___titulo{
+    align-self:center;
+    align-items: center;
+    text-align: center;
+}
+
